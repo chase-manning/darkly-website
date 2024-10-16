@@ -1,7 +1,8 @@
 import styled, { keyframes } from "styled-components";
 import logo from "./assets/transparent-logo.png";
 
-const LINK = "";
+const LINK =
+  "https://chromewebstore.google.com/detail/darkly/efcgeahpfikenbddmbhichciiddnnhbc";
 
 const StyledApp = styled.div`
   width: 100%;
