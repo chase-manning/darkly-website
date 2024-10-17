@@ -39,6 +39,18 @@ const Container = styled.div`
   }
 `;
 
+const mobileTitleAnimation = keyframes`
+  0% {
+    transform: translateY(-17rem);
+  }
+  50% {
+    transform: translateY(-17rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+`;
+
 const titleAnimation = keyframes`
   0% {
     transform: translateX(-17rem);
@@ -60,6 +72,8 @@ const Title = styled.h1`
 
   @media (max-width: 900px) {
     font-size: 10rem;
+    transform: translateY(-17rem);
+    animation: ${mobileTitleAnimation} 3s forwards;
   }
 `;
 
